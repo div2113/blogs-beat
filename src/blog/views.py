@@ -8,7 +8,7 @@ from rest_framework.pagination import PageNumberPagination
 from rest_framework import filters
 
 class CustomPagination(PageNumberPagination):
-    page_size=2  #overide default page size
+    page_size=5  #overide default page size
     page_size_query_param='size' #allow client to set page size with ?size=20
     max_page_size=4
 

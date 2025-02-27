@@ -46,7 +46,7 @@ REST_FRAMEWORK={
         'rest_framework.permissions.IsAuthenticated',  #Ensure endpoints require authetication
     ),
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
-    'PAGE_SIZE': 2  # Number of items per page
+    'PAGE_SIZE': 5  # Number of items per page
 }
 
 #JWT settings
